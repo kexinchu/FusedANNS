@@ -1,0 +1,18 @@
+{
+  "binary_relevance": {
+    "must_spearman": -0.4785031461282041,
+    "unified_spearman": -0.3106489313598906,
+    "must_kendall": -0.3907040460034005,
+    "unified_kendall": -0.2536488704537845,
+    "spearman_improvement": 35.07902009140412,
+    "kendall_improvement": 35.07902642718554
+  },
+  "graded_relevance": {
+    "must_spearman": -0.6796911029415617,
+    "unified_spearman": -0.4961718623838036,
+    "must_kendall": -0.49206695101328574,
+    "unified_kendall": -0.3487239597830589,
+    "spearman_improvement": 27.000388818321287,
+    "kendall_improvement": 29.130790217682506
+  }
+}

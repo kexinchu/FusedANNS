@@ -1,0 +1,22 @@
+{
+  "full_greedy": {
+    "mean_recall": 0.03400000000000001,
+    "std_recall": 0.015620499351813305,
+    "mean_steps_or_nodes": 2.65
+  },
+  "full_bfs": {
+    "mean_recall": 0.21000000000000002,
+    "std_recall": 0.05567764362830022,
+    "mean_steps_or_nodes": 100.0
+  },
+  "coarse_greedy": {
+    "mean_recall": 0.029000000000000005,
+    "std_recall": 0.014798648586948742,
+    "mean_steps_or_nodes": 2.7
+  },
+  "coarse_bfs": {
+    "mean_recall": 0.192,
+    "std_recall": 0.05844655678480984,
+    "mean_steps_or_nodes": 100.0
+  }
+}

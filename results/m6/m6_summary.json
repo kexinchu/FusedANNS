@@ -1,0 +1,32 @@
+{
+  "latency": {
+    "cpu_random_scatter_s": 2.244502305984497,
+    "object_major_batch_s": 2.261120080947876,
+    "speedup": 0.9926506446502334,
+    "cpu_per_query_ms": 44.89004611968994,
+    "batch_per_query_ms": 45.22240161895752
+  },
+  "throughput": {
+    "cpu_random_scatter_qps": 22.276653433006253,
+    "object_major_batch_qps": 22.112934390923492,
+    "improvement_percent": -0.734935534976659
+  },
+  "resource_usage": {
+    "cpu_random_cpu_percent": 0.5,
+    "cpu_random_memory_mb": 191.109375,
+    "batch_cpu_percent": 0.2,
+    "batch_memory_mb": 191.109375
+  },
+  "io_pattern": {
+    "random_scatter": {
+      "sequential_ratio": 0.0,
+      "random_ratio": 1.0,
+      "total_accesses": 1000
+    },
+    "object_major": {
+      "sequential_ratio": 1.0,
+      "random_ratio": 0.0,
+      "total_accesses": 1000
+    }
+  }
+}
