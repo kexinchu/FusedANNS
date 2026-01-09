@@ -1,0 +1,5 @@
+# Large datasets (keep locally)
+MUST-main/celeba/
+MUST-main/gist/
+MUST-main/indexing_and_search/doc/dataset/
+MUST-main/indexing_and_search/doc/index/

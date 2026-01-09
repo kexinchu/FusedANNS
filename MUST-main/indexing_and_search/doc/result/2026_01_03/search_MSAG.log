@@ -1,0 +1,1443 @@
+
+2026-1-3-20-31-57
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 438.58 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.018800
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-20-32-1
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 416.24 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.018800
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-20-38-44
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 655.95 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-20-38-47
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 637.86 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027300
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-21-46
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 627.22 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-23
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 517.83 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-25
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 681.90 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.020820
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-28
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 647.84 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-30
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 565.21 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.020820
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-33
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 558.33 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-36
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 456.84 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.020820
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-39
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 330.03 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027100
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-41
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 641.43 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.037840
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-43
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 680.62 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027100
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-46
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 716.35 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.037840
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-48
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 718.38 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027100
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-22-31-51
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 617.66 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.037840
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-28
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 622.46 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.002300
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-31
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 627.14 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.006620
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-33
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.300000
+[PARAM] Modal2 distance weight: -0.700000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 584.95 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.004700
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-36
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.300000
+[PARAM] Modal2 distance weight: -0.700000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 650.14 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.013360
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-39
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 639.61 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.008500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-41
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 656.34 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.020820
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-44
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.700000
+[PARAM] Modal2 distance weight: -0.300000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 655.13 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.012900
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-47
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.700000
+[PARAM] Modal2 distance weight: -0.300000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 618.94 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.026940
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-49
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 559.12 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.016900
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-52
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_1/random_query_n1000_d32_c10_s1.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 539.99 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.030840
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-55
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 995.00 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.029600
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-9-58
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.100000
+[PARAM] Modal2 distance weight: -0.900000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 693.79 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.038160
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-1
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.300000
+[PARAM] Modal2 distance weight: -0.700000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 617.12 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027900
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-4
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.300000
+[PARAM] Modal2 distance weight: -0.700000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 477.77 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.038160
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-6
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 686.49 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.027100
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-9
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.500000
+[PARAM] Modal2 distance weight: -0.500000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 605.92 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.037840
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-12
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.700000
+[PARAM] Modal2 distance weight: -0.300000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 695.24 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.024600
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-15
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.700000
+[PARAM] Modal2 distance weight: -0.300000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 559.28 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.036500
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-18
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 658.50 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.021300
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-3-23-10-20
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal2 base path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_base_n100000_d32_c10_s5.fvecs
+[PARAM] Modal1 query path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PARAM] Modal2 query path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] Groundtruth path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_ground_truth_n1000_d32_c10_s5.ivecs
+[PARAM] Index path: ../doc/index/uqv_syn/uqv_syn_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_03/uqv_syn_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.900000
+[PARAM] Modal2 distance weight: -0.100000
+[PARAM] top-k: 50
+[PARAM] gt-k: 50
+[PARAM] L_search: 200
+[PARAM] is norm for modal1?: 0
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] search init begin ...
+[PATH] modal 1 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_5/random_query_n1000_d32_c10_s5.fvecs
+[PATH] modal 2 query vector path: /Users/mac/github/MUST-main/uqv_syn/s_10/random_query_n1000_d32_c10_s10.fvecs
+[PARAM] query vector num: 1000
+[PARAM] modal 1 query vector dim: 32
+[PARAM] modal 2 query vector dim: 32
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 1000
+[PARAM] gt[0] dim: 100
+[EXEC] search run begin ...
+[TIME] search time cost is : 662.38 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 50 NN accuracy for top50: 0.034220
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...

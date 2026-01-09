@@ -1,0 +1,270 @@
+
+2026-1-7-0-20-55
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/celeba/test/celeba_modal2_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/celeba/test/celeba_gt.ivecs
+[PARAM] Index path: ../doc/index/celeba/celeba_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_07/celeba_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -1
+[PARAM] Modal2 distance weight: -0.2
+[PARAM] top-k: 1
+[PARAM] gt-k: 1
+[PARAM] L_search: 5000
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 1
+[PARAM] is skip number for modal2?: 1
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 1
+[PARAM] is delete id?: 1
+[PARAM] Delete id path: ../doc/dataset/celeba/test/celeba_delete_id.ivecs
+[PARAM] Per-query result path: ../doc/result/2026_01_07/celeba_MSAG_res_w1_-1.0000_w2_-0.2000.txt
+[EXEC] search init begin ...
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] query vector num: 19962
+[PARAM] modal 1 query vector dim: 2048
+[PARAM] modal 2 query vector dim: 40
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 19962
+[PARAM] gt[0] dim: 10
+[EXEC] search run begin ...
+[DEBUG] q=0 id=10510 | D1: 0.440465 | D2: 0.5 | Final: -0.540465
+[DEBUG] q=0 id=6324 | D1: 0.391867 | D2: 0.447214 | Final: -0.48131
+[DEBUG] q=0 id=3425 | D1: 0.358185 | D2: 0.516398 | Final: -0.461465
+[DEBUG] q=0 id=9676 | D1: 0.380199 | D2: 0.381385 | Final: -0.456476
+[DEBUG] q=0 id=14703 | D1: 0.404405 | D2: 0.316228 | Final: -0.46765
+[DEBUG] q=0 id=11400 | D1: 0.439614 | D2: 0.421637 | Final: -0.523941
+[DEBUG] q=0 id=2656 | D1: 0.43975 | D2: 0.421637 | Final: -0.524077
+[DEBUG] q=0 id=4273 | D1: 0.439897 | D2: 0.421637 | Final: -0.524225
+[DEBUG] q=0 id=13988 | D1: 0.388826 | D2: 0.421637 | Final: -0.473154
+[DEBUG] q=0 id=16370 | D1: 0.387686 | D2: 0.421637 | Final: -0.472013
+[TIME] search time cost is : 1317375.89 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 1 NN accuracy for top1: 0.863140
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-7-0-45-27
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/celeba/test/celeba_modal2_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/celeba/test/celeba_gt.ivecs
+[PARAM] Index path: ../doc/index/celeba/celeba_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_07/celeba_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.2
+[PARAM] Modal2 distance weight: -1
+[PARAM] top-k: 1
+[PARAM] gt-k: 1
+[PARAM] L_search: 5000
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 1
+[PARAM] is skip number for modal2?: 1
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 1
+[PARAM] is delete id?: 1
+[PARAM] Delete id path: ../doc/dataset/celeba/test/celeba_delete_id.ivecs
+[PARAM] Per-query result path: ../doc/result/2026_01_07/celeba_MSAG_res_w1_-0.2000_w2_-1.0000.txt
+[EXEC] search init begin ...
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] query vector num: 19962
+[PARAM] modal 1 query vector dim: 2048
+[PARAM] modal 2 query vector dim: 40
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 19962
+[PARAM] gt[0] dim: 10
+[EXEC] search run begin ...
+[DEBUG] q=0 id=10510 | D1: 0.440465 | D2: 0.5 | Final: -0.588093
+[DEBUG] q=0 id=6324 | D1: 0.391867 | D2: 0.447214 | Final: -0.525587
+[DEBUG] q=0 id=3425 | D1: 0.358185 | D2: 0.516398 | Final: -0.588035
+[DEBUG] q=0 id=9676 | D1: 0.380199 | D2: 0.381385 | Final: -0.457425
+[DEBUG] q=0 id=14703 | D1: 0.404405 | D2: 0.316228 | Final: -0.397109
+[DEBUG] q=0 id=11400 | D1: 0.439614 | D2: 0.421637 | Final: -0.50956
+[DEBUG] q=0 id=2656 | D1: 0.43975 | D2: 0.421637 | Final: -0.509587
+[DEBUG] q=0 id=4273 | D1: 0.439897 | D2: 0.421637 | Final: -0.509616
+[DEBUG] q=0 id=13988 | D1: 0.388826 | D2: 0.421637 | Final: -0.499402
+[DEBUG] q=0 id=16370 | D1: 0.387686 | D2: 0.421637 | Final: -0.499174
+[TIME] search time cost is : 2717024.41 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 1 NN accuracy for top1: 0.875764
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-7-1-36-34
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/celeba/test/celeba_modal2_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/celeba/test/celeba_gt.ivecs
+[PARAM] Index path: ../doc/index/celeba/celeba_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_07/celeba_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -0.1
+[PARAM] Modal2 distance weight: -2
+[PARAM] top-k: 1
+[PARAM] gt-k: 1
+[PARAM] L_search: 5000
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 1
+[PARAM] is skip number for modal2?: 1
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 1
+[PARAM] is delete id?: 1
+[PARAM] Delete id path: ../doc/dataset/celeba/test/celeba_delete_id.ivecs
+[PARAM] Per-query result path: ../doc/result/2026_01_07/celeba_MSAG_res_w1_-0.1000_w2_-2.0000.txt
+[EXEC] search init begin ...
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] query vector num: 19962
+[PARAM] modal 1 query vector dim: 2048
+[PARAM] modal 2 query vector dim: 40
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 19962
+[PARAM] gt[0] dim: 10
+[EXEC] search run begin ...
+[DEBUG] q=0 id=10510 | D1: 0.440465 | D2: 0.5 | Final: -1.04405
+[DEBUG] q=0 id=6324 | D1: 0.391867 | D2: 0.447214 | Final: -0.933614
+[DEBUG] q=0 id=3425 | D1: 0.358185 | D2: 0.516398 | Final: -1.06861
+[DEBUG] q=0 id=9676 | D1: 0.380199 | D2: 0.381385 | Final: -0.80079
+[DEBUG] q=0 id=14703 | D1: 0.404405 | D2: 0.316228 | Final: -0.672896
+[DEBUG] q=0 id=11400 | D1: 0.439614 | D2: 0.421637 | Final: -0.887235
+[DEBUG] q=0 id=2656 | D1: 0.43975 | D2: 0.421637 | Final: -0.887249
+[DEBUG] q=0 id=4273 | D1: 0.439897 | D2: 0.421637 | Final: -0.887264
+[DEBUG] q=0 id=13988 | D1: 0.388826 | D2: 0.421637 | Final: -0.882157
+[DEBUG] q=0 id=16370 | D1: 0.387686 | D2: 0.421637 | Final: -0.882043
+[TIME] search time cost is : 2638812.85 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 1 NN accuracy for top1: 0.876115
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-7-2-26-51
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/celeba/test/celeba_modal2_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/celeba/test/celeba_gt.ivecs
+[PARAM] Index path: ../doc/index/celeba/celeba_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_07/celeba_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: 0
+[PARAM] Modal2 distance weight: -1
+[PARAM] top-k: 1
+[PARAM] gt-k: 1
+[PARAM] L_search: 5000
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 1
+[PARAM] is skip number for modal2?: 1
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 1
+[PARAM] is delete id?: 1
+[PARAM] Delete id path: ../doc/dataset/celeba/test/celeba_delete_id.ivecs
+[PARAM] Per-query result path: ../doc/result/2026_01_07/celeba_MSAG_res_w1_0.0000_w2_-1.0000.txt
+[EXEC] search init begin ...
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] query vector num: 19962
+[PARAM] modal 1 query vector dim: 2048
+[PARAM] modal 2 query vector dim: 40
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 19962
+[PARAM] gt[0] dim: 10
+[EXEC] search run begin ...
+[DEBUG] q=0 id=10510 | D1: 0.440465 | D2: 0.5 | Final: -0.5
+[DEBUG] q=0 id=6324 | D1: 0.391867 | D2: 0.447214 | Final: -0.447214
+[DEBUG] q=0 id=3425 | D1: 0.358185 | D2: 0.516398 | Final: -0.516398
+[DEBUG] q=0 id=9676 | D1: 0.380199 | D2: 0.381385 | Final: -0.381385
+[DEBUG] q=0 id=14703 | D1: 0.404405 | D2: 0.316228 | Final: -0.316228
+[DEBUG] q=0 id=11400 | D1: 0.439614 | D2: 0.421637 | Final: -0.421637
+[DEBUG] q=0 id=2656 | D1: 0.43975 | D2: 0.421637 | Final: -0.421637
+[DEBUG] q=0 id=4273 | D1: 0.439897 | D2: 0.421637 | Final: -0.421637
+[DEBUG] q=0 id=13988 | D1: 0.388826 | D2: 0.421637 | Final: -0.421637
+[DEBUG] q=0 id=16370 | D1: 0.387686 | D2: 0.421637 | Final: -0.421637
+[TIME] search time cost is : 131698.78 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 1 NN accuracy for top1: 0.714007
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...
+
+2026-1-7-2-36-11
+
+[RUN] Execution object: ../release/S-MSAG
+[PARAM] Modal1 base path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/celeba/test/celeba_modal2_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/celeba/test/celeba_gt.ivecs
+[PARAM] Index path: ../doc/index/celeba/celeba_MSAG.index
+[PARAM] Save Result path: ../doc/result/2026_01_07/celeba_MSAG_res.txt
+[PARAM] thread number: 1
+[PARAM] Modal1 distance weight: -1
+[PARAM] Modal2 distance weight: -1
+[PARAM] top-k: 1
+[PARAM] gt-k: 1
+[PARAM] L_search: 5000
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 1
+[PARAM] is skip number for modal2?: 1
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 1
+[PARAM] is delete id?: 1
+[PARAM] Delete id path: ../doc/dataset/celeba/test/celeba_delete_id.ivecs
+[PARAM] Per-query result path: ../doc/result/2026_01_07/celeba_MSAG_res_w1_-1.0000_w2_-1.0000.txt
+[EXEC] search init begin ...
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/celeba/test/resnet50_encode/celeba_modal1_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/celeba/test/celeba_modal2_query.ivecs
+[PARAM] query vector num: 19962
+[PARAM] modal 1 query vector dim: 2048
+[PARAM] modal 2 query vector dim: 40
+[EXEC] search init finished, error code is 0 ...
+[PARAM] gt num: 19962
+[PARAM] gt[0] dim: 10
+[EXEC] search run begin ...
+[DEBUG] q=0 id=10510 | D1: 0.440465 | D2: 0.5 | Final: -0.940465
+[DEBUG] q=0 id=6324 | D1: 0.391867 | D2: 0.447214 | Final: -0.839081
+[DEBUG] q=0 id=3425 | D1: 0.358185 | D2: 0.516398 | Final: -0.874583
+[DEBUG] q=0 id=9676 | D1: 0.380199 | D2: 0.381385 | Final: -0.761584
+[DEBUG] q=0 id=14703 | D1: 0.404405 | D2: 0.316228 | Final: -0.720632
+[DEBUG] q=0 id=11400 | D1: 0.439614 | D2: 0.421637 | Final: -0.861251
+[DEBUG] q=0 id=2656 | D1: 0.43975 | D2: 0.421637 | Final: -0.861387
+[DEBUG] q=0 id=4273 | D1: 0.439897 | D2: 0.421637 | Final: -0.861534
+[DEBUG] q=0 id=13988 | D1: 0.388826 | D2: 0.421637 | Final: -0.810463
+[DEBUG] q=0 id=16370 | D1: 0.387686 | D2: 0.421637 | Final: -0.809323
+[TIME] search time cost is : 1515322.11 ms
+[EXEC] search run finished, error code is 0 ...
+[EVA] 1 NN accuracy for top1: 0.873359
+[EXEC] search destroy begin ...
+[EXEC] search destroy finished, error code is 0 ...

@@ -1,0 +1,45 @@
+
+2025-12-30-18-43-45
+
+[RUN] Execution object: ../release/S-MSAB
+[PARAM] Modal1 base path: ../doc/dataset/siftsmall/siftsmall_base.fvecs
+[PARAM] Modal2 base path: ../doc/dataset/siftsmall/int_attribute_siftsmall_base.ivecs
+[PARAM] Modal1 query path: ../doc/dataset/siftsmall/siftsmall_query.fvecs
+[PARAM] Modal2 query path: ../doc/dataset/siftsmall/int_attribute_siftsmall_query.ivecs
+[PARAM] Groundtruth path: ../doc/dataset/siftsmall/siftsmall_groundtruth.ivecs
+[PARAM] Save Result path: ../doc/result/2025_12_30/siftsmall_MSAB_res.txt
+[PARAM] thread number: 8
+[PARAM] Modal1 distance weight: -0.7
+[PARAM] Modal2 distance weight: -0.1
+[PARAM] top-k: 10
+[PARAM] gt-k: 10
+[PARAM] is norm for modal1?: 1
+[PARAM] is norm for modal2?: 0
+[PARAM] is skip number for modal2?: 0
+[PARAM] skip number for modal2?: 0
+[PARAM] is multi-results equal?: 0
+[PARAM] is delete id?: 0
+[PARAM] Delete id path: NULL
+[EXEC] eva_brute_force init begin ...
+[EXEC] normalize vector complete!
+[PATH] modal 1 vector path: ../doc/dataset/siftsmall/siftsmall_base.fvecs
+[PATH] modal 2 vector path: ../doc/dataset/siftsmall/int_attribute_siftsmall_base.ivecs
+[PARAM] vector num: 10000
+[PARAM] modal 1 vector dim: 128
+[PARAM] modal 2 vector dim: 9
+[EXEC] normalize vector complete!
+[PATH] modal 1 query vector path: ../doc/dataset/siftsmall/siftsmall_query.fvecs
+[PATH] modal 2 query vector path: ../doc/dataset/siftsmall/int_attribute_siftsmall_query.ivecs
+[PARAM] query vector num: 100
+[PARAM] modal 1 query vector dim: 128
+[PARAM] modal 2 query vector dim: 9
+[EXEC] eva_brute_force init finished, error code is 0 ...
+[PARAM] gt num: 100
+[PARAM] gt[0] dim: 100
+[EXEC] eva_brute_force run begin ...
+[OPENMP] brute force openmp init complete!
+[TIME] eva_brute_force time cost is : 40.57 ms
+[EXEC] eva_brute_force run finished, error code is 0 ...
+[EVA] 10 NN accuracy for top10: 0.534000
+[EXEC] eva_brute_force destroy begin ...
+[EXEC] eva_brute_force destroy finished, error code is 0 ...

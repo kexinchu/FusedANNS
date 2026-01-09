@@ -1,0 +1,7 @@
+setup.py
+pymswl.egg-info/PKG-INFO
+pymswl.egg-info/SOURCES.txt
+pymswl.egg-info/dependency_links.txt
+pymswl.egg-info/not-zip-safe
+pymswl.egg-info/top_level.txt
+tests/test_python_query.py

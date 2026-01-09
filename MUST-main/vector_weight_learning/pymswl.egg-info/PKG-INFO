@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: pymswl
+Version: 0.1
+Summary: Python library for WeightLearning algorithm
+Author: xxx
+Author-email: xxx
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

@@ -1,0 +1,7 @@
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/T-MSAG.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/S-MSAG.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/S-MSAB.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/S-MABG.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/S-MABB.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/edit_cache.dir
+/Users/mac/github/MUST-main/indexing_and_search/debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,45 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning at cmake/GA-Eigen3-depend.cmake:2 (find_package):
+  By not providing "FindEigen3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Eigen3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Eigen3" with any
+  of the following names:
+
+    Eigen3Config.cmake
+    eigen3-config.cmake
+
+  Add the installation prefix of "Eigen3" to CMAKE_PREFIX_PATH or set
+  "Eigen3_DIR" to a directory containing one of the above files.  If "Eigen3"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (include)
+
+
+[GraphANNS] Eigen3 no support, recommend install for speed up.
+[GraphANNS] OpenMP support ...
+-- Configuring done (0.3s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/mac/github/MUST-main/indexing_and_search/release
+~/github/MUST-main/indexing_and_search/release ~/github/MUST-main/indexing_and_search/scripts
+[ 45%] Built target S-MSAB
+[ 88%] Built target S-MABB
+[ 88%] Built target S-MABG
+[ 91%] Built target T-MSAG
+[100%] Built target S-MSAG
+~/github/MUST-main/indexing_and_search/scripts
+[SCRIPT] Searching by MultimodalSimilarityAggregationGraph on celeba ...
+
+real	20m15.604s
+user	19m23.232s
+sys	0m19.129s

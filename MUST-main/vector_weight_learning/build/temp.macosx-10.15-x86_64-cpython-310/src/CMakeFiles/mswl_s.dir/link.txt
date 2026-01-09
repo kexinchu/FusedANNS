@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmswl_s.a CMakeFiles/mswl_s.dir/opt_set.cpp.o CMakeFiles/mswl_s.dir/util.cpp.o
+/usr/bin/ranlib libmswl_s.a

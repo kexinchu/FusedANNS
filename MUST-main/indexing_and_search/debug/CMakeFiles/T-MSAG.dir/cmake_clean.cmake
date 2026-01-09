@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/T-MSAG.dir/CGraph/src/DomainCtrl/Ann/DAnnNode.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/DomainCtrl/Ann/DAnnNode.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphDaemon/GDaemon.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphDaemon/GDaemon.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphDaemon/GDaemonManager.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphDaemon/GDaemonManager.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GElement.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GElement.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GElementManager.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GElementManager.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GCluster/GCluster.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GCluster/GCluster.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GCondition/GCondition.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GCondition/GCondition.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GRegion/GRegion.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GGroup/GRegion/GRegion.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GNode/GNode.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphElement/GNode/GNode.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphParam/GParamManager.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphParam/GParamManager.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphPipeline/GPipeline.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphPipeline/GPipeline.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphPipeline/GPipelineFactory.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/GraphCtrl/GraphPipeline/GPipelineFactory.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/ThreadPool/UThreadPool.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/ThreadPool/UThreadPool.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/ThreadPool/UThreadPoolSingleton.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/ThreadPool/UThreadPoolSingleton.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/Trie/UTrie.cpp.o"
+  "CMakeFiles/T-MSAG.dir/CGraph/src/UtilsCtrl/Trie/UTrie.cpp.o.d"
+  "CMakeFiles/T-MSAG.dir/T-MSAG.cpp.o"
+  "CMakeFiles/T-MSAG.dir/T-MSAG.cpp.o.d"
+  "T-MSAG"
+  "T-MSAG.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/T-MSAG.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

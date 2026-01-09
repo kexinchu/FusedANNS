@@ -1,0 +1,9 @@
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/CMakeFiles/edit_cache.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/CMakeFiles/rebuild_cache.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/third_party/pybind11/CMakeFiles/edit_cache.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/third_party/pybind11/CMakeFiles/rebuild_cache.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/src/CMakeFiles/mswl.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/src/CMakeFiles/mswl_s.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/src/CMakeFiles/pymswl.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/src/CMakeFiles/edit_cache.dir
+/Users/mac/github/MUST-main/vector_weight_learning/build/temp.macosx-10.15-x86_64-cpython-310/src/CMakeFiles/rebuild_cache.dir
