@@ -87,10 +87,12 @@ struct ParamConfig {
     }
 
     void set_entry_param(unsigned entry_strategy,
+                         unsigned entry_topk,
                          const std::string& centroids_visual_path,
                          const std::string& centroids_attr_path,
                          const std::string& centroid_ids_path = std::string()) {
         entry_strategy_ = entry_strategy;
+        entry_topk_ = entry_topk;
         GA_ALG_CENTROIDS_VISUAL_PATH_ = centroids_visual_path;
         GA_ALG_CENTROIDS_ATTR_PATH_ = centroids_attr_path;
         GA_ALG_CENTROID_IDS_PATH_ = centroid_ids_path;
@@ -137,6 +139,7 @@ public:
     float w2_{};
 
     unsigned entry_strategy_{};
+    unsigned entry_topk_{1};
     std::string GA_ALG_CENTROIDS_VISUAL_PATH_{};
     std::string GA_ALG_CENTROIDS_ATTR_PATH_{};
     std::string GA_ALG_CENTROID_IDS_PATH_{};

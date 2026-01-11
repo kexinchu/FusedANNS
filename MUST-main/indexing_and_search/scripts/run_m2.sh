@@ -20,6 +20,7 @@ param_${DATASET}_${STRATEGY}
 
 SEARCH_W1=${SEARCH_W1:--0.08}
 SEARCH_W2=${SEARCH_W2:--1.18}
+ENTRY_TOPK=${ENTRY_TOPK:-1}
 THREAD_NUM=${SEARCH_THREAD_NUM:-1}
 TOPK_VALUE=${TOPK[0]}
 GTK_VALUE=${GTK[0]}
@@ -80,6 +81,7 @@ run_once() {
       "${IS_DELETE_ID}" \
       "${DELETE_ID_PATH}" \
       --entry_strategy "${strategy}" \
+    --entry_topk "${ENTRY_TOPK}" \
       --centroids_visual "${CENTROIDS_VISUAL_PATH}" \
       --centroids_attr "${CENTROIDS_ATTR_PATH}"; } &> "${log_path}"
   echo "[SCRIPT] Log saved to ${log_path}"

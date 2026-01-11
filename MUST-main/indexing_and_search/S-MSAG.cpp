@@ -28,6 +28,8 @@ struct ParsedArgs {
     std::string per_query_path;
     bool has_entry_strategy = false;
     unsigned entry_strategy = 0;
+    bool has_entry_topk = false;
+    unsigned entry_topk = 1;
     std::string centroids_visual_path;
     std::string centroids_attr_path;
 };
@@ -70,6 +72,15 @@ bool parse_args(int argc, char **argv, ParsedArgs& out, std::string& error) {
             }
             out.has_entry_strategy = true;
             out.entry_strategy = strtoul(argv[++i], nullptr, 10);
+            continue;
+        }
+        if (arg == "--entry_topk" || arg == "--entry-topk") {
+            if (i + 1 >= argc) {
+                error = "--entry_topk requires a value";
+                return false;
+            }
+            out.has_entry_topk = true;
+            out.entry_topk = strtoul(argv[++i], nullptr, 10);
             continue;
         }
         if (arg == "--centroids_visual" || arg == "--centroids-visual") {
@@ -130,7 +141,8 @@ void print_usage(const char* exe) {
               << " <is_multi_results_equal> <is_delete_id> <delete_id_path>"
               << " [--w1 val] [--w2 val] [--per_query_path path]"
               << " [--norm_modal1 0/1] [--norm_modal2 0/1]"
-              << " [--entry_strategy 0/1/2] [--centroids_visual path]"
+              << " [--entry_strategy 0/1/2] [--entry_topk K]"
+              << " [--centroids_visual path]"
               << " [--centroids_attr path]" << std::endl;
 }
 } // namespace
@@ -197,6 +209,14 @@ int main(int argc, char **argv) {
         std::cout << "[RUN] --entry_strategy must be 0, 1, or 2" << std::endl;
         return 1;
     }
+    unsigned entry_topk = parsed.entry_topk;
+    if (!parsed.has_entry_topk) {
+        entry_topk = 1;
+    }
+    if (entry_topk == 0) {
+        std::cout << "[RUN] --entry_topk must be >= 1" << std::endl;
+        return 1;
+    }
 
     std::cout << "[RUN] Execution object: " << args[0] << std::endl;         // 0
     std::cout << "[PARAM] Modal1 base path: " << args[1] << std::endl;       // 1
@@ -220,6 +240,7 @@ int main(int argc, char **argv) {
     std::cout << "[PARAM] is delete id?: " << args[19] << std::endl;              // 19
     std::cout << "[PARAM] Delete id path: " << args[20] << std::endl;             // 20
     std::cout << "[PARAM] Entry strategy: " << entry_strategy << std::endl;
+    std::cout << "[PARAM] Entry top-k: " << entry_topk << std::endl;
     if (!parsed.centroids_visual_path.empty()) {
         std::cout << "[PARAM] Centroids visual path: " << parsed.centroids_visual_path << std::endl;
     }
@@ -244,7 +265,8 @@ int main(int argc, char **argv) {
     Params.set_general_param(thread_num, is_norm_modal1, is_norm_modal2, is_skip, skip_num,
                              is_multiple_res_equal, is_delete_id);
     Params.set_data_param(w1, w2);
-    Params.set_entry_param(entry_strategy, parsed.centroids_visual_path, parsed.centroids_attr_path);
+    Params.set_entry_param(entry_strategy, entry_topk,
+                           parsed.centroids_visual_path, parsed.centroids_attr_path);
 
     if (!per_query_path.empty() && per_query_path != " ") {
         Params.set_per_query_path(per_query_path);

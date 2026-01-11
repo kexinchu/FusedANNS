@@ -13,6 +13,7 @@
 #include <algorithm>
 #include <iostream>
 #include <limits>
+#include <utility>
 
 class C7RoutingKGraph : public C7RoutingBasic {
 public:
@@ -54,27 +55,37 @@ public:
         if (!s_param->sp.empty()) {
             best_ep = s_param->sp[0].id_;
         }
+        DistResType best_score = 0;
+        int topk_inserted = 0;
+        int topk_requested = 0;
+        bool used_entry_topk = false;
         if (Params.entry_strategy_ == 1 || Params.entry_strategy_ == 2) {
             const auto &centroids1 = model_->centroids_meta_modal1_;
             const auto &centroids2 = model_->centroids_meta_modal2_;
             if (centroids1.data != nullptr && centroids1.num > 0 &&
                 (Params.entry_strategy_ == 1 ||
                  (centroids2.data != nullptr && centroids2.num > 0))) {
-                IDType best_centroid = 0;
-                DistResType best_dist = std::numeric_limits<DistResType>::max();
                 const VecValType1 *q1 = query_modal1_ + ((size_t)query_id_ * (size_t)dim1_);
                 const VecValType2 *q2 = query_modal2_ + ((size_t)query_id_ * (size_t)dim2_);
+                std::vector<std::pair<DistResType, IDType>> ep_candidates;
+                ep_candidates.reserve(centroids1.num);
+                IDType best_visual_centroid = 0;
+                DistResType best_visual_score = std::numeric_limits<DistResType>::max();
+                DistResType1 best_visual_raw = 0;
                 for (IDType i = 0; i < centroids1.num; ++i) {
                     DistResType1 d1 = 0;
                     DistResType2 d2 = 0;
                     DistResType dist = 0;
+                    bool has_d1 = false;
                     const VecValType1 *c1 = centroids1.data + (size_t)i * (size_t)centroids1.dim;
                     if (Params.entry_strategy_ == 1) {
                         dist_op_.dist_op1_.calculate(q1, c1, dim1_, centroids1.dim, d1);
+                        has_d1 = true;
                         dist = d1 * dist_op_.weight_1_;
                     } else {
                         if (dist_op_.weight_1_ != 0) {
                             dist_op_.dist_op1_.calculate(q1, c1, dim1_, centroids1.dim, d1);
+                            has_d1 = true;
                         }
                         const VecValType2 *c2 = centroids2.data + (size_t)i * (size_t)centroids2.dim;
                         if (dist_op_.weight_2_ != 0) {
@@ -82,37 +93,90 @@ public:
                         }
                         dist = d1 * dist_op_.weight_1_ + d2 * dist_op_.weight_2_;
                     }
-                    if (dist < best_dist) {
-                        best_dist = dist;
-                        best_centroid = i;
+                    if (!has_d1) {
+                        dist_op_.dist_op1_.calculate(q1, c1, dim1_, centroids1.dim, d1);
                     }
+                    DistResType visual_score = d1 * dist_op_.weight_1_;
+                    if (visual_score < best_visual_score) {
+                        best_visual_score = visual_score;
+                        best_visual_centroid = i;
+                        best_visual_raw = d1;
+                    }
+                    ep_candidates.emplace_back(dist, i);
                 }
-                IDType mapped_id = best_centroid;
-                if (model_->centroid_ids_meta_.data != nullptr &&
-                    model_->centroid_ids_meta_.num > best_centroid &&
-                    model_->centroid_ids_meta_.dim > 0) {
-                    mapped_id = model_->centroid_ids_meta_.data[
-                        (size_t)best_centroid * (size_t)model_->centroid_ids_meta_.dim];
+                std::sort(ep_candidates.begin(), ep_candidates.end(),
+                          [](const auto &a, const auto &b) { return a.first < b.first; });
+                topk_requested = static_cast<int>(ep_candidates.size());
+                if (Params.entry_topk_ > 0 &&
+                    topk_requested > static_cast<int>(Params.entry_topk_)) {
+                    topk_requested = static_cast<int>(Params.entry_topk_);
                 }
-                if (mapped_id < num_) {
-                    best_ep = mapped_id;
+                if (topk_requested > static_cast<int>(search_L_)) {
+                    topk_requested = static_cast<int>(search_L_);
+                }
+                s_param->sp.assign(search_L_ + 1, NeighborFlag(0,
+                                                              std::numeric_limits<DistResType>::max(),
+                                                              false));
+                for (int i = 0; i < topk_requested; ++i) {
+                    IDType centroid_idx = ep_candidates[i].second;
+                    IDType mapped_id = centroid_idx;
+                    if (model_->centroid_ids_meta_.data != nullptr &&
+                        model_->centroid_ids_meta_.num > centroid_idx &&
+                        model_->centroid_ids_meta_.dim > 0) {
+                        mapped_id = model_->centroid_ids_meta_.data[
+                            (size_t)centroid_idx * (size_t)model_->centroid_ids_meta_.dim];
+                    }
+                    if (mapped_id >= num_) {
+                        continue;
+                    }
                     DistResType ep_dist = 0;
                     dist_op_.calculate(q1,
-                                      data_modal1_ + (size_t)best_ep * (size_t)dim1_,
+                                      data_modal1_ + (size_t)mapped_id * (size_t)dim1_,
                                       dim1_, dim1_,
                                       q2,
-                                      data_modal2_ + (size_t)best_ep * (size_t)dim2_,
+                                      data_modal2_ + (size_t)mapped_id * (size_t)dim2_,
                                       dim2_, dim2_, ep_dist);
-                    s_param->sp.assign(search_L_ + 1, NeighborFlag(0,
-                                                                  std::numeric_limits<DistResType>::max(),
-                                                                  false));
-                    s_param->sp[0] = NeighborFlag(best_ep, ep_dist, true);
-                    std::sort(s_param->sp.begin(), s_param->sp.begin() + search_L_);
+                    NeighborFlag nn(mapped_id, ep_dist, true);
+                    int r = InsertIntoPool(s_param->sp.data(), search_L_, nn);
+                    if (r <= static_cast<int>(search_L_)) {
+                        if (topk_inserted == 0) {
+                            best_ep = mapped_id;
+                            best_score = ep_candidates[i].first;
+                        }
+                        ++topk_inserted;
+                    }
+                }
+                used_entry_topk = topk_inserted > 0;
+                if (query_id_ == 18254) {
+                    std::cout << "--- Debug QID 18254 Top-" << Params.entry_topk_ << " EPs ---" << std::endl;
+                    for (size_t i = 0; i < ep_candidates.size() && i < Params.entry_topk_; ++i) {
+                        IDType centroid_idx = ep_candidates[i].second;
+                        IDType mapped_id = centroid_idx;
+                        if (model_->centroid_ids_meta_.data != nullptr &&
+                            model_->centroid_ids_meta_.num > centroid_idx &&
+                            model_->centroid_ids_meta_.dim > 0) {
+                            mapped_id = model_->centroid_ids_meta_.data[
+                                (size_t)centroid_idx * (size_t)model_->centroid_ids_meta_.dim];
+                        }
+                        std::cout << "Rank " << i
+                                  << ": Centroid " << centroid_idx
+                                  << " (Score: " << ep_candidates[i].first
+                                  << ", BaseID: " << mapped_id << ")" << std::endl;
+                    }
+                    std::cout << "Visual Best Centroid: " << best_visual_centroid
+                              << " (Score: " << best_visual_score
+                              << ", Raw: " << best_visual_raw << ")" << std::endl;
                 }
             }
         }
         std::cout << "[DEBUG] Strategy: " << Params.entry_strategy_
                   << ", Selected Entry Point ID: " << best_ep << std::endl;
+        if (used_entry_topk) {
+            std::cout << "[DEBUG] Top-1 EP: " << best_ep
+                      << " (Score: " << best_score << ")" << std::endl;
+            std::cout << "[DEBUG] Inserted Top-" << topk_inserted
+                      << " Entry Points (requested " << topk_requested << ")." << std::endl;
+        }
 
         unsigned k = 0;
         while (k < (int) search_L_) {
