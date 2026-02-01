@@ -337,6 +337,13 @@ def main() -> None:
     write_ivecs(gt_path, gt)
     write_delete_id(delete_id_path)
 
+    # Write query names to file
+    query_names_path = out_type_dir / "query_names.txt"
+    query_names_path.parent.mkdir(parents=True, exist_ok=True)
+    with query_names_path.open("w", encoding="utf-8") as f:
+        for name in query_names:
+            f.write(f"{name}\n")
+
     print("[OK] CelebA ResNet50 prepared:")
     print("  modal1 base:", modal1_base_path)
     print("  modal1 query:", modal1_query_path)
@@ -344,6 +351,7 @@ def main() -> None:
     print("  modal2 query:", modal2_query_path)
     print("  groundtruth:", gt_path)
     print("  delete_id:", delete_id_path)
+    print("  query_names:", query_names_path)
 
 
 if __name__ == "__main__":
